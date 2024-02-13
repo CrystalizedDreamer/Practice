@@ -8,3 +8,8 @@
 // despite the fact that alternate text may not be required, it occurs to me that as housekeeping rules, it should be maintained for not only the visually impaired but for SEO reasons as well.
 
 //The <video></video> tag does the same thing but requires a close after the source you can add width and height in pixels, between the two tags you can add text to display if the video fails
+// The head tag is a tag necessary to contain the metatdata of a page, including but not limited to its page title.
+// <a></a> is an anchor tag that is attributed with "href" Hyperlink Reference. after the link is named, a target can follow it up
+// Marking a section with an ID allows your links to jump to another place within the same page (think Wikipedia)
+
+<!-- In HTML5 commenting looks like this instead -->
