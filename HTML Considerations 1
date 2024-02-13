@@ -1,0 +1,10 @@
+// It appears that the modifiers for tags in HTML5 are known as attributes such as the id attribute, known as the identifier attribute . Example such as <div id>
+
+// <span> and <div> are related tags, div is for broad divisions, while span denotes a special bit of information that will be highlighted separately within an existing bit of information
+//a div, is also related to a break <br> but a div is not apparent to the Front End User, for this sort of division you would use a Break tag, essentially it is a new paragraph
+
+// lists are either ordered or unordered. <ol> and <ul> respectively, and items on a list are denoted as List Items <li>
+// <img> for images is a self closing tag. However it does have a required attribute in Source or "src" and a secondary attribute in Alternate text <alt> which is not required
+// despite the fact that alternate text may not be required, it occurs to me that as housekeeping rules, it should be maintained for not only the visually impaired but for SEO reasons as well.
+
+//The <video></video> tag does the same thing but requires a close after the source you can add width and height in pixels, between the two tags you can add text to display if the video fails
