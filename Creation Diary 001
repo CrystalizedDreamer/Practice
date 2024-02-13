@@ -7,3 +7,5 @@
 // Note: CodeCademy will only accept one verification of code at a time, so sometimes you will wonder if you did it correctly but you might've.
 
 //I have to wonder if the tables will adjust to the number of data points provided or if this is a constraint that CodeCademy automatically accounts for.
+// Update, I think that you have to manually keep track of the number of columns and rows are there
+//
