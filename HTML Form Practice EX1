@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Adding a Text Input</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
+      <hr>
+      <form>
+				<h1>Login to start creating a burger!</h1>  
+	      <!--Add your code below-->
+				<form><input type="text" name="username" value="Davie"></form>
+
+      </form>
+    </section>
+  </body>
+</html>
+
+<!-- Of note, the input tag is nested inside of the form tag but not an attribute appended into the opening tag. This distinction is paramount to the functioning of the code.
+the input tag itself however can be appended with the attributes of Type, Name, and Value. Type is self explanatory and will usually be set equal to text. Name is the name of the input
+Value is the value input into this particular form. INPUT IS A SELF CLOSING TAG
+
+The form tag indicates of course... a form to be filled.
+
+Labelling the form requires the use of a.... Label tag. I'm starting to believe that I have been both over and underthinking HTML.
+
+Label is also nested within a form but is not appended directly into input either. It is its own tag, it is not an attribute of anything.
+
+Placeholder is an attribute added within an input tag that does that fancy disappearing gray text in a form
+
+Number attribute rather than text will restrict the user to numerics. step attribute will allow you to not only add arrows but allow you to ad the incremental value of each 'step'
+
+FURTHER EXAMPLE OF A FORM
+
+<form>
+				<h1>Login to start creating a burger!</h1>
+        <label for="username">Username:</label>
+  			<input type="text" name="username" id="username">
+        <br>
+        <label for="user-pw">Password:</label>
+				<input type="password" id="user-pw" name="user-pw" placeholder="Don't tell anybody...">
+      </form>
+
+Remember, Label conventionally comes before input and describes the tag that is about to follow but can only be done if the tag is properly assigned an id
+
+For A Slider, use a Range input
+
+     <form>
+        <h1>Create a burger!</h1>
+				<section class="protein">
+          <label for="patty">What type of protein would you like?</label>
+    			<input type="text" name="patty" id="patty">
+        </section>
+        <hr>
+        <section class="patties">
+          <label for="amount">How many patties would you like?</label>
+          <input type="number" name="amount" id="amount">
+        </section>
+        <hr>
+
+              <!-- RANGE DEMONSTRATION HERE -->
+        <section class="cooked">
+          <label for="doneness">How do you want your patty cooked</label>
+          <br>
+          <span>Rare</span>
+		    
+          <label for="doneness"></label>
+          <input type="range" id="doneness" name="doneness" min="0" max="5" step="0.5">
+          
+          <span>Well-Done</span>
+        </section>
+        
+      </form>
+            <!-- TERMINATE DEMONSTRATION-->
+
+Additionally for a Drop Down list, use SELECT instead of INPUT, speaking of options, when using SELECT, one can indicate options using OPTION tags.
+DATALIST can be used in cases where there are way too many options to just SELECT.
+
+Textarea is used to provide designated space for text inputs, still has to be id'ed and named. specify rows and cols
+
+For requiring an input, straight up type required into the input tag
