@@ -1,0 +1,50 @@
+CSS appears to have multiple styles (syntaxes) in which it may be written, (...at least, this is how it appears so far)
+The two styles I see first and foremost are applied as either a ruleset or an inline style and at a glance, inline seems more succinct but it appears to apply itself directly to a specific line.
+
+"Ruleset style looks like this and comprises of
+Selector—The beginning of the ruleset used to target the element that will be styled.
+Declaration Block—The code in-between (and including) the curly braces ({ }) that contains the CSS declaration(s).
+Declaration—The group name for a property and value pair that applies a style to the selected element.
+Property—The first part of the declaration that signifies what visual characteristic of the element is to be modified.
+Value—The second part of the declaration that signifies the value of the property."
+
+Definitions provided by CodeCademy 2024
+p{ 
+Color: blue;
+}
+
+//////////////
+
+Inline looks like this
+<p style='color:blue;'>Hello world</p>
+
+"Opening Tag—The start of an HTML element. This is the element that will be styled.
+Attribute—The style attribute is used to add CSS inline styles to an HTML element.
+Declaration—The group name for a property and value pair that applies a style to the selected element.
+Property—The first part of the declaration that signifies what visual characteristic of the element is to be modified.
+Value—The second part of the declaration that signifies the value of the property."
+
+This is similar to the other style, //but again I have the sneaking suspicon that this is better for altering one specific line of information that is intended not to change easily//
+
+
+Though CSS is a separate language from HTML there are integrations between them, which is where the inline styles come in.
+an example is the style attribute which is applicable to many html tags.
+
+As suspected, the inline styling element is only a way to target one specific element and does not directly affect all similar elements, in short it is inefficient in its given task.
+Modern HTML (HTML5 at the time of writing) allows for direct integration from CSS which is helpful in a pinch. However, it has become common convention to keep CSS in its own separate
+"Stylesheet" as it is called. usually kept "style.CSS"
+
+Due to the need for specifics, you can separate different tags with a class modifier in order to specify which subgroup of a tag you'd like to alter.
+you can also assign multiple classes to any particular tag to achieve multiple effects all at once
+
+a specific effect can also be achieved by use of id attributes. While class is broad use. ID can only be used once per page and thus is highly specific and unique.
+to call out an ID modification, simply prepend with a #
+you can also target specific attributes of these tags
+
+Pseudo-class is used in order to alter an element in a particular altered state such as during or after user interaction
+Pseudo-classes include :focus :visited :disabled :active and :hover and these can be appended to any selector
+
+Specificity is the order in which css elements will be prioritized
+"A best practice in CSS is to style elements while using the lowest degree of specificity so that if an element needs a new style, it is easy to override."
+
+Ids are most specific, then by class, then by general element. and they are respected hierarchically in that order.
