@@ -48,3 +48,7 @@ Specificity is the order in which css elements will be prioritized
 "A best practice in CSS is to style elements while using the lowest degree of specificity so that if an element needs a new style, it is easy to override."
 
 Ids are most specific, then by class, then by general element. and they are respected hierarchically in that order.
+
+in order to avoid redundancies, one can assign one style to multiple elements by simply adding a comma to separate multiple selectors
+
+//Log Terminate//
