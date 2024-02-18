@@ -4,3 +4,30 @@ LOG INITIATION
 Today I am learning more deeply into CSS and how it integrates to HTML
 so far I have learned about the box method of organization regarding margins, padding and borders as they pertain to elements on a page
 margin and padding are measured in pixels and the flow is from the top in a clockwise motion.
+
+I will need to revisit positionings in css because for some reason, the concept does not appear to be retaining itself as readily as I would have hoped.
+
+Z index governs the positioning relative to the viewer, as a stack.
+NOTE: I think that I need to re-visit this day in the future.
+
+Area of improvement needed, retrain focus on CSS Positioning in a returning module.
+Static vs Absolute vs fixed, as in the english lexicon these all mean the same thing, but in programming they do not.
+
+display controls the block level of an element.
+
+fixed removes an elemenmt from the flow of html and holds it to a position
+static is the default of defaults, thus it ignores Z index
+Relative is relative to static position
+Fixed is in relation to the user's view
+Inlines do not start new lines.
+
+It occurs to me that I have come close to my first Exams, I'm a bit nervous but something tells me I'm ready to tackle these issues.
+
+INTERNAL NOTE 
+Return to the VSCODE entry module on CodeCademy
+Return to Active Code Reviews during daylight hours for additional practice in collaborative efforts.
+Return to the Chrome Devtools Module during Creation Diary 7 or 8 in order to learn more about this additional code environment.
+
+The next project requires local development from my personal computer. For tonight I will terminate the journal and realign myself to complete the next module in the morning.
+
+//LOG TERMINATION//
