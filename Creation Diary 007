@@ -2,3 +2,6 @@ I have returned after a brief hiatus to my studies, now that this is settled. I 
 With that said, off I go. 
 
 For today's work, I'm going to tackle another Codecademy sample project, but this time it will be done off platform without assistance for html and CSS. wish me luck
+AHHH while working my project I realized that the CSS file MUST be in the same folder as the HTML file in order for it to work.
+Therefore, it stands to reason that common practice should be that only media and external additives to a website should be in the resource folder
+I will need to confirm this in the wider industry
